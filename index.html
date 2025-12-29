@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sweet Delights Confectionery</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Sweet Delights</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">☰</div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>SWEET DELIGHTS CONFECTIONERY</h1>
+    <p>Luxury bespoke cakes crafted with love & creativity</p>
+    <a href="#contact" class="btn">Order Your Cake</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+      Sweet Delights Confectionery specializes in beautifully crafted bespoke cakes
+      designed to make every celebration unforgettable. We combine creativity,
+      premium ingredients, and attention to detail to deliver cakes that taste as
+      amazing as they look.
+    </p>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section light">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card">Bespoke Cake Design</div>
+      <div class="card">Wedding Cakes</div>
+      <div class="card">Birthday Cakes</div>
+      <div class="card">Celebration Cakes</div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section id="products" class="section">
+    <h2>Our Creations</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Custom Birthday Cakes</h3>
+        <p>Personalized cakes designed to match your theme and style.</p>
+      </div>
+      <div class="card">
+        <h3>Wedding Cakes</h3>
+        <p>Elegant multi-tier cakes for your special day.</p>
+      </div>
+      <div class="card">
+        <h3>Celebration Cakes</h3>
+        <p>Perfect cakes for anniversaries, baby showers & events.</p>
+      </div>
+    </div>
+  </section>
+<section id="gallery" class="section light">
+  <h2>Cake Gallery</h2>
+  <div class="gallery">
+    <img src="images/cake1.jpg" alt="Cake design">
+    <img src="images/cake2.jpg" alt="Cake design">
+    <img src="images/cake3.jpg" alt="Cake design">
+    <img src="images/cake4.jpg" alt="Cake design">
+  </div>
+</section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="section light">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p class="contact-info">
+      📧 info@sweetdelightsconfectionery.com <br>
+      📞 +27 623520864
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Sweet Delights Confectionery | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
+<a href="https://wa.me/27623520864" class="whatsapp-btn" target="_blank">
+  💬 Order on WhatsApp
+</a>
+<section class="section">
+  <h2>Follow Us on Instagram</h2>
+  <p>@sweetdelightsconfectionery</p>
+  <a href="https://instagram.com/sweetdelightsconfectionery"
+     target="_blank"
+     class="btn">
+    View Instagram
+  </a>
+</section>
+
+<form class="contact-form">
+  <input type="text" placeholder="Full Name" required>
+  <input type="email" placeholder="Email Address" required>
+  <input type="tel" placeholder="Phone Number" required>
+
+  <select required>
+    <option value="">Select Cake Type</option>
+    <option>Birthday Cake</option>
+    <option>Wedding Cake</option>
+    <option>Celebration Cake</option>
+    <option>Custom Design</option>
+  </select>
+
+  <input type="date" required>
+
+  <textarea placeholder="Describe your cake idea"></textarea>
+
+  <button type="submit" class="btn">Place Order</button>
+</form>
+
+<div class="lightbox" id="lightbox">
+  <img id="lightbox-img" src="" alt="Cake preview">
+</div>
+
+<img src="images/cake1.jpg" onclick="openLightbox(this.src)">
+
+<section class="section light">
+  <h2>Our Packages</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Basic</h3>
+      <p>From R500</p>
+      <p>Simple design • Single tier</p>
+    </div>
+
+    <div class="card">
+      <h3>Premium</h3>
+      <p>From R1,200</p>
+      <p>Custom design • Detailed finish</p>
+    </div>
+
+    <div class="card">
+      <h3>Luxury</h3>
+      <p>From R2,500</p>
+      <p>Wedding & event cakes</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>What Our Clients Say</h2>
+  <div class="cards">
+    <div class="card">
+      <p>“Absolutely stunning cake! Tasted amazing and looked perfect.”</p>
+      <strong>— Sarah M.</strong>
+    </div>
+
+    <div class="card">
+      <p>“Sweet Delights made our wedding unforgettable. Highly recommended!”</p>
+      <strong>— James & Anna</strong>
+    </div>
+
+    <div class="card">
+      <p>“Professional service and beautiful designs every time.”</p>
+      <strong>— Thando K.</strong>
+    </div>
+  </div>
+</section>
+
+<meta name="description" content="Sweet Delights Confectionery offers luxury bespoke cakes for birthdays, weddings and special events in South Africa.">
+<meta name="keywords" content="cake decorator, bespoke cakes, wedding cakes, birthday cakes, Sweet Delights Confectionery">
+<meta name="author" content="Sweet Delights Confectionery">
+<form action="https://www.payfast.co.za/eng/process" method="post">
+  <input type="hidden" name="merchant_id" value="YOUR_MERCHANT_ID">
+  <input type="hidden" name="merchant_key" value="YOUR_MERCHANT_KEY">
+  <input type="hidden" name="amount" value="1200">
+  <input type="hidden" name="item_name" value="Custom Cake Order">
+
+  <button class="btn">Pay Now</button>
+</form>
+
+<section class="section">
+  <h2>Our Blog</h2>
+
+  <article class="card">
+    <h3>How to Choose the Perfect Wedding Cake</h3>
+    <p>Choosing the right wedding cake involves style, flavor, and size...</p>
+    <a href="#" class="btn">Read More</a>
+  </article>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  emailjs.init("YOUR_PUBLIC_KEY");
+
+  function sendOrder(e) {
+    e.preventDefault();
+    emailjs.sendForm(
+      "service_id",
+      "template_id",
+      e.target
+    );
+    alert("Order sent successfully!");
+  }
+</script>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<section class="section">
+  <h2>Admin Dashboard</h2>
+
+  <table class="admin-table">
+    <tr>
+      <th>Order ID</th>
+      <th>Customer</th>
+      <th>Amount</th>
+      <th>Status</th>
+    </tr>
+    <tr>
+      <td>#001</td>
+      <td>Sarah M.</td>
+      <td>R1,200</td>
+      <td>Paid</td>
+    </tr>
+  </table>
+</section>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cake Blog | Sweet Delights</title>
+  <meta name="description" content="Cake tips, wedding cake ideas, and baking trends">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<section class="section">
+  <h2>Sweet Delights Blog</h2>
+
+  <article class="card">
+    <h3>How to Choose the Perfect Wedding Cake</h3>
+    <p>Choosing the right wedding cake involves style, flavour, and size...</p>
+  </article>
+
+  <article class="card">
+    <h3>Top Birthday Cake Trends in South Africa</h3>
+    <p>From minimalist designs to bold colours...</p>
+  </article>
+</section>
+
+</body>
+</html>
